@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- linking styles and google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="left">Janhavi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#AboutMe">About me</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main section divided in 3 sub sections (First, Second, Third) -->
+    <main>
+        <!-- First Section -->
+        <section class="firstSection" id="Home">
+            <div class="leftSection">
+                Hi, My name is <span class="name">Janhavi</span>
+                <div>and I am an aspiring</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="./assets/background.png" alt="Background Image">
+            </div>
+        </section>
+        <hr>
+        <!-- Second Section -->
+        <section class="secondSection" id="AboutMe">
+            <h1>●●●● About Me ●●●●</h1>
+            <div class="secondone">
+                <div class="leftSide">
+                    <img src="./assets/Myself.jpg" alt="Background Image">
+                </div>
+                <div class="rightSide">
+                    <p>Hi, I'm Janhavi Hivarekar, a first-year B-Tech Computer Science student. I excel in building websites with HTML, CSS, Javascript, and React. I also have a good knowlegde of Figma for UI/UX Currently, I'm expanding my skills by learning Python and C++. Eager to contribute to tech projects, I bring a passion for continuous learning and a solid foundation in web development. I'm enthusiastic about utilizing my skills to make meaningful contributions to innovative teams.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- Third Section -->
+        <section class="thirdSection" id="Projects">
+            <h1>Visit my projects</h1>
+            <div class="projects">
+                <div class="quiz">
+                    <h2>Title: Quiz app</h2>
+                    <p>Using HTML CSS and JS</p>
+                    <img class="projectimg" src="./assets/quiz.png" alt="">
+                    <button class="code" id="codeQuiz">Github</button>
+                    <button class="live" id="liveQuiz">Live Demo</button>
+                </div>
+                <div class="recipie-book">
+                    <h2>Title: Recipie-book</h2>
+                    <p>Using HTML CSS and JS</p>
+                    <img class="projectimg" src="./assets/recipie-book.png" alt="">
+                    <button class="code" id="codeRecipie">Github</button>
+                    <button class="live" id="liveRecipie">Live Demo</button>
+                </div>
+                <div class="zombie-shoot">
+                    <h2>Title: Zombie Game</h2>
+                    <p>Using HTML CSS and JS</p>
+                    <img class="projectimg" src="./assets/zombie.png" alt="">
+                    <button class="code" id="codeZombie">Github</button>
+                    <button class="live" id="liveZombie">Live Demo</button>
+                </div>
+            </div>
+            <div class="project">
+                <div class="To-do">
+                    <h2>Title: To-Do app</h2>
+                    <p>Using React JS</p>
+                    <img class="img" src="./assets/to-do.png" alt="">
+                    <button class="code" id="codeTodo">Github</button>
+                    <button class="live" id="liveTodo">Live Demo</button>
+                </div>
+                <div class="Counter">
+                    <h2>Title: Counter App</h2>
+                    <p>Using React JS</p>
+                    <img class="img" src="./assets/counter.png" alt="">
+                    <button class="code" id="codeCounter">Github</button>
+                    <button class="live" id="liveCounter">Live Demo</button>
+                </div>
+                <div class="rockpaperscissors" id="python">
+                    <h2>Title: Rock-Paper-scissors</h2>
+                    <p>Using Python</p>
+                    <button class="code" id="codePy">Github</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer section divided in four sub footers (footer1, footer2, footer3, footer4) -->
+    <footer>
+        <div class="footer" id="Contact">
+            <div class="footer1">
+                <h3>Janhavi's Portfolio</h3>
+            </div>
+            <div class="footer2" id="footer2">
+                <img src="./assets/linkedin.png" alt="LinkedIn" id="LinkedIn">
+                <h4>LinkedIn</h4>
+            </div>
+            <div class="footer3" id="footer3">
+                <img src="./assets/gmail.png" alt="Email-Id" id="Email-Id">
+                <h4>Gmail</h4>
+            </div>
+            <div class="footer4" id="footer4">
+                <img src="./assets/github.png" alt="Github" id="Github">
+                <h4>Github</h4>
+            </div>
+        </div>
+        <!-- Copyright Section -->
+        <div class="copyright">
+            <p>&copy; 2024 Janhavi's Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- Attaching javascript with script tag -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+<!-- HTML ends here -->
