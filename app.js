@@ -64,7 +64,7 @@ liveCounter.onclick = ()=>{
     
 }
 footer2.onclick = ()=>{
-    window.location.href = "www.linkedin.com/in/janhavi-hivarekar-1b74a028b";
+    window.location.href = "https://www.linkedin.com/in/janhavi-hivarekar-1b74a028b/";
     
 }
 footer3.onclick = ()=>{
